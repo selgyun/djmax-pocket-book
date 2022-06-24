@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/banner_4b_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/banner_4b_13" />
+
+            <TextView
+                android:id="@+id/Floor8TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/_8" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_1"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/rolling_on_the_duck"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_2"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/black_gold"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_3"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/good_night_bad_luck"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_4"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/marry_me_nightmare"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_5"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/another_day"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_6"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/colours_of_sorrow"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/floor7TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/_7" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_7"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/remains_of_doom"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_8"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/urban_night"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_9"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/airwave_extended_mix"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_10"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/la_companella_nu_rave"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_11"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/whiteblue"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_12"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/ghost"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_13"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/fever_pitch_girl"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_14"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/jupiter_driving"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_15"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/miles"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_16"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/nova_mr_funky_remix"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_17"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/old_gold"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/floor6TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/_6" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_18"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/midnight_blood"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_19"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/binary_world"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_20"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/marionette"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_21"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/mind_control"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_22"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/nb_ranger_nonstop_remix"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_23"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/nevermind"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_24"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/showdown"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_25"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/the_clear_blue_sky"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_26"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/catch_you"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_27"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/memoirs"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_28"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/plastic_method"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_29"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/relation_again_estis_remix"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_30"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/waiting_for_the_sun"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_31"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/y_bs_style"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/floor5TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/_5" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_32"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/astro_fight"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_33"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/dark_prism"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_34"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/vile_requiem"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_35"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/kartrider_mashup_pure100_remix"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_36"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/dont_die"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_37"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/fight_night"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_38"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/its_my_war_now"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_39"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/out_law_reborn"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_40"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/out_of_ctrl"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_41"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/talk_talk"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_42"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/the_rain_maker"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_43"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/bullet_wanted"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_44"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/chrono_breakers"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_45"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/everything"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_46"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/fancy_night"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_47"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/in_my_heart_esti_remix"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_48"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/kung_fu_rider"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_49"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/lover_bs_style"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_50"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/luv_is_true"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_51"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/someday"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_52"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/sunny_side_deepn_soul_mix"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/floor4TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/_4" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_53"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/garakuta_doll_play"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_54"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/flowering"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_55"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/young_adventurer_sina_remix"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_56"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/hanz_up"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_57"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/hexad"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_58"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/ray_of_illuminati"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_59"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/supersonic_mr_funky_dirty_planet_remix"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_60"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/xeus"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_61"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/become_myself"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_62"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/maharajah_fenomeno_edition"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_63"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/showtime"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_64"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/u_nivus"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_65"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/ververg"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/floor3TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/_3" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_66"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/leave_me_alone"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_67"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/magnolia"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_68"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/myosotis"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_69"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/running_girl"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/floor2TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/_2" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_70"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/creator"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_71"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/enemy_storm"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_72"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/get_jinxed"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_73"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/glory_day"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/floor1TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/_1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_74"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/angelic_sphere"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+
+                <Button
+                    android:id="@+id/song_75"
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:drawableTop="@drawable/les_parfums_de_lamour"
+                    android:onClick="songButtonClicked"
+                    android:paddingTop="5dp"
+                    android:text="@string/_00_00" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

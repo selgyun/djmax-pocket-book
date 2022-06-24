@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DJMAX Pocket Book</string>
+    <string name="lv_13">LV.13</string>
+    <string name="lv_14">LV.14</string>
+    <string name="lv_15">LV.15</string>
+    <string name="_4b">4B</string>
+    <string name="_5b">5B</string>
+    <string name="_6b">6B</string>
+    <string name="_8b">8B</string>
+    <string name="_9">9층</string>
+    <string name="_00_00">00.00%</string>
+    <string name="_8">8층</string>
+    <string name="_7">7층</string>
+    <string name="_6">6층</string>
+    <string name="_5">5층</string>
+    <string name="_4">4층</string>
+    <string name="_2">2층</string>
+    <string name="_3">3층</string>
+    <string name="_1">1층</string>
+    <string name="_10">10층</string>
+</resources>
